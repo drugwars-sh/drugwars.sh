@@ -33,8 +33,6 @@ bash drugwars.sh
 
 # Linux
 ```shell
-git clone git@github.com:drugwars-sh/drugwars.sh.git
-cd drugwars.sh
 bash drugwars.sh
 ```
 
