@@ -1,15 +1,21 @@
 # drugwars.sh
 A Terminal Based Strategy Game
+
 Now available in pure BASH!
+
 Originally created by John E. Dell (1984) for Microsoft DOS.
+
 Rewritten in absolute homage to John.
+
 By A. J. S. (2019)
+
 
 ![Alt text](/Drugwars.png?raw=true "WILL YOU BUY, SELL OR JET ?")
 
 
 # Requirements
 A shell or terminal
+
 Bash 4+
 
 ```shell
@@ -34,7 +40,7 @@ bash drugwars.sh
 
 # Mac
 Mac comes with a much older version of the Bourne Again SHell.
-You can upgeade BASH to the latest version with
+You can upgrade BASH to the latest version using homebrew:
 ```shell
 brew install coreutils
 brew install bash
