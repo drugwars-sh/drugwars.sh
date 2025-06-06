@@ -254,7 +254,7 @@ BORROW () { # BORROW money from the loan shark
     elif [[ $(($REPLY+DEBT)) -gt $MAXLOAN ]]; then
         echo 'YOU THINK HE IS CRAZY MAN !!!'
         sleep 1
-        let CASH=CASH+REPLY
+        let CASH=CASH
         BORROW
     else
         LOAN
